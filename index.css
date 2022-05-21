@@ -1,100 +1,114 @@
-body{
-background-color: #18191e;
-color: hsla(0,0%,100%,.6);
-font: 14px/16px ProximaNova,arial,tahoma,sans-serif;
+body {
+    background-color: #18191e;
+    color: hsla(0, 0%, 100%, .6);
+    font: 14px/16px ProximaNova, arial, tahoma, sans-serif;
 }
-.topsemana{
+
+.topsemana {
     border: 1px solid rgb(221, 210, 210);
-    width: 94%;
-    height: 577px;
+    width: 93%;
+    height: 499px;
     margin-right: 3%;
     margin-left: 3%;
 }
-.imgs{
+
+.imgs {
     width: 94%;
     margin-left: 3%;
-    
+
     margin-right: 3%;
-    height: 574px;
-    
+    height: 497px;
+
 }
-footer{
+
+footer {
     width: 100%;
     height: 300px;
     background-color: black;
 }
-.direitos{
+
+.direitos {
     text-align: center;
     margin-top: 50px;
-    
+
 }
-li{
+
+li {
     text-decoration: none;
     display: block;
     width: 100%;
     padding-left: 10px;
 }
 
-.likrodape{
+.likrodape {
     display: block;
     color: aliceblue;
 
-   padding: 20px;
+    padding: 20px;
 
 }
-.logob{
+
+.logob {
     display: flex;
     position: absolute;
     margin-left: 55%;
     margin-top: -179px;
-  
-  
+
+
 
 }
-.logoss{
+
+.logoss {
     vertical-align: middle;
     border-style: none;
     width: 30px;
     height: 30px;
 }
-.terra{
+
+.terra {
     width: 131px;
     position: absolute;
 }
-.logo1{
+
+.logo1 {
     width: 193px;
-   
-}
-.logo3{
-    margin: 0px;
-    text-decoration: none;
- 
+
 }
 
-.navecao{
+.logo3 {
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+.navecao {
     background: #18191e;
     float: right;
     width: 43%;
-    
+
 
 }
-.logopc{
+
+.logopc {
     display: flex;
     position: absolute;
     margin-left: 20%;
     margin-top: -190px;
 }
-.terrapc{
+
+.terrapc {
     width: 131px;
     position: absolute;
 }
-.limknavecao{
+
+.limknavecao {
     color: #d1d811;
     font-size: medium;
     font-style: oblique;
- 
+
 }
-.ulll{
+
+.ulll {
     margin-top: 44px;
     margin-bottom: 46px;
     padding-left: 30px;
@@ -102,35 +116,50 @@ li{
     display: flex;
     margin-left: -11px;
 }
-.border{
-   
+
+.border {
+
     border-radius: 6px;
     border: solid;
     border-color: #d1d811;
 }
 
+.h22 {
+    margin-left: 46px;
+    font-family: Times New Roman Times, serif;
+}
 
+.ptermos {
+    text-align: left;
+    margin-left: 13px;
+}
 
+.termosprivaci {
+    text-decoration: none;
+    color: #47484f;
 
-@media only screen and (min-width: 768px){
-.imgs{
-    height: 574px;
-    width: 94%;
-}
-.topsemana{
-    border: 1px solid rgb(221, 210, 210);
-    width: 40%;
-    height: 577px;
-   
-}
-}
-@media only screen and (max-width: 768px){
-.navecao{
-    display: none;
-}
 }
 
 
-    
+
+@media only screen and (min-width: 768px) {
+    .imgs {
+        height: 497px;
+        width: 94%;
+    }
+
+    .topsemana {
+        border: 1px solid rgb(221, 210, 210);
+        height: 499px;
+        width: 40%;
+    }
 
 
+
+}
+
+@media only screen and (max-width: 768px) {
+    .navecao {
+        display: none;
+    }
+}
